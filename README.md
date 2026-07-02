@@ -19,7 +19,24 @@ Bu proje, yazılım geliştirme disiplinimi güçlendirmek, veritabanı mimarisi
 - **Prisma** (ORM - Veritabanı etkileşimi)
 - **JSON Web Token (JWT)** (Güvenli kimlik doğrulama)
 
+## 🚀 Nasıl Çalıştırılır?
 
+İki terminalde sırasıyla:
+
+```bash
+# Terminal 1 — Backend
+cd server
+npm run dev
+
+# Terminal 2 — Frontend
+cd client
+npm run dev
+```
+
+- **Frontend:** `http://localhost:5173`
+- **Backend:** `http://localhost:3001`
+
+Sunucu çalışıyorsa arayüzde API bağlantı durumu yeşil olarak görünür.
 
 ## 📋 Geliştirme Yol Haritası
 - [ ] **Veritabanı Şeması:** MySQL tablolarının (Users, Boards, Columns, Cards) tasarımı.
