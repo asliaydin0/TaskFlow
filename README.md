@@ -39,7 +39,7 @@ npm run dev
 Sunucu çalışıyorsa arayüzde API bağlantı durumu yeşil olarak görünür.
 
 ## 📋 Geliştirme Yol Haritası
-- [ ] **Veritabanı Şeması:** MySQL tablolarının (Users, Boards, Columns, Cards) tasarımı.
+- [x] **Veritabanı Şeması:** MySQL tablolarının (Users, Boards, Columns, Cards) tasarımı.
 - [ ] **Back-end:** REST API uç noktalarının oluşturulması ve JWT auth entegrasyonu.
 - [ ] **Front-end:** Temel layout ve Dashboard sayfasının kodlanması.
 - [ ] **Etkileşim:** `dnd-kit` ile sürükle-bırak mantığının kurulması.
