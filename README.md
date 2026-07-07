@@ -40,7 +40,7 @@ Sunucu çalışıyorsa arayüzde API bağlantı durumu yeşil olarak görünür.
 
 ## 📋 Geliştirme Yol Haritası
 - [x] **Veritabanı Şeması:** MySQL tablolarının (Users, Boards, Columns, Cards) tasarımı.
-- [ ] **Back-end:** REST API uç noktalarının oluşturulması ve JWT auth entegrasyonu.
+- [x] **Back-end:** REST API uç noktalarının oluşturulması ve JWT auth entegrasyonu.
 - [ ] **Front-end:** Temel layout ve Dashboard sayfasının kodlanması.
 - [ ] **Etkileşim:** `dnd-kit` ile sürükle-bırak mantığının kurulması.
 - [ ] **Optimizasyon:** Performans iyileştirmeleri ve hata yönetimi (Error handling).
