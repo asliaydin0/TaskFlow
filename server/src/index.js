@@ -4,6 +4,10 @@ import { prisma } from './lib/prisma.js';
 
 async function startServer() {
   try {
+    if (!env.jwtSecret) {
+      throw new Error('JWT_SECRET is not defined in .env');
+    }
+
     await prisma.$connect();
     console.log('Database connection established.');
 
